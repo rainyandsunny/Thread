@@ -1,5 +1,10 @@
 package capter2;
 
+/**
+ * 由于持有的锁相同，所以导致b线程不能运行（string常量池的原因）
+ * @author yhp5210
+ *
+ */
 public class Run23 {
 
 	public static void main(String[] args) {
