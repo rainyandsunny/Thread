@@ -16,6 +16,7 @@ public class C {
 					System.out.println("get wait");
 					lock.wait();
 				}
+				Thread.sleep(3000);
 				System.out.println("getµÄÖµÊÇ" + ValueObject1.value);
 				ValueObject1.value = "";
 				lock.notify();

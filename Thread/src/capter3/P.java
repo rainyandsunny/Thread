@@ -16,10 +16,11 @@ public class P {
 					System.out.println("set wait");
 					lock.wait();
 				}
-				Thread.sleep(1000);
+				Thread.sleep(3000);
 				String value = System.currentTimeMillis() + "_"
 						+ System.nanoTime();
 				System.out.println("setµÄÖµÊÇ" + value);
+				ValueObject1.value = value;
 				lock.notify();
 			}
 		} catch (InterruptedException e) {
