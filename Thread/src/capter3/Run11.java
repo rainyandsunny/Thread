@@ -1,5 +1,10 @@
 package capter3;
 
+/**
+ * 一个生产者对应一个消费者
+ * @author yhp5210
+ *
+ */
 public class Run11 {
 
 	public static void main(String[] args) {
